@@ -41,7 +41,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="<?php echo site_url('home'); ?>">Home</a></li>
+              <li ><a href="<?php echo site_url('home'); ?>">Home</a></li>
               <li><a href="<?php echo site_url('news'); ?>"">News</a></li>
 			  
 			  <?php 
@@ -49,7 +49,7 @@
 			  if (isset($_SESSION['username'])) 
 			  { ?>
 				  
-			  <li><a href="<?php echo site_url('news'); ?>">Logged in as <?php echo $this->session->username; ?></a></l>
+			  <li class="active"><a href="<?php echo site_url('news'); ?>">Logged in as <?php echo $this->session->username; ?></a></l>
                <li><a href="<?php echo site_url('news/logout'); ?>">Logout</a></li>
 			  
 			  <?php	 } else { ?>		

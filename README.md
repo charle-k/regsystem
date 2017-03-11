@@ -10,4 +10,8 @@ This application has been created with Codeigniter.
 
 4. You can now open http://localhost/{path to application}
 
-From there you can login, logout or register an accoun
+From there you can login, logout or register an account
+
+Test account:
+Username  -  charles
+Password  -  password
