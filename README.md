@@ -13,5 +13,6 @@ This application has been created with Codeigniter.
 From there you can login, logout or register an account
 
 Test account:
-Username  -  charles
-Password  -  password
+
+Username: charles
+Password: password
