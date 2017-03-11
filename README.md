@@ -15,4 +15,5 @@ From there you can login, logout or register an account
 Test account:
 
 Username: charles
+
 Password: password
